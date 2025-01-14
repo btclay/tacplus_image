@@ -1,6 +1,6 @@
 # Command To build this image 
 #       docker build --no-cache -t tacplus . 
-FROM ubuntu:bionic
+FROM public.ecr.aws/lts/ubuntu:bionic
 
 # Default Tacacs_Plud directoty inside container /etc/tacacs+
 # Default Config File inside container /etc/tacacs+/tac_plus.conf
